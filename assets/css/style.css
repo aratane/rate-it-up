@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+/* Hero Section */
+.hero-section {
+    border-radius: 10px;
+    padding: 3rem;
+    margin-bottom: 2rem;
+    background: linear-gradient(135deg, #0d6efd 0%, #0b5ed7 100%);
+}
+
+/* Rating Stars */
+.rating-input .star-icon {
+    color: #dee2e6;
+    transition: color 0.2s;
+}
+
+.rating-input .star-icon.text-warning {
+    color: #ffc107;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: 700;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+}
+
+/* Responsive Images */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Pagination */
+.pagination .page-item.active .page-link {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+/* Alert Messages */
+.alert {
+    border-radius: 8px;
+}
+
+/* Form Validation */
+.is-invalid {
+    border-color: #dc3545;
+}
+
+.invalid-feedback {
+    color: #dc3545;
+}
+
+/* Dashboard Cards */
+.card.bg-primary, 
+.card.bg-success, 
+.card.bg-info, 
+.card.bg-warning, 
+.card.bg-danger {
+    color: white;
+    border: none;
+}
+
+/* Table Hover */
+.table-hover tbody tr:hover {
+    background-color: rgba(13, 110, 253, 0.05);
+}
+
+/* Modal */
+.modal-content {
+    border-radius: 10px;
+}
+
+.star-rating {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.star-rating:hover {
+    transform: scale(1.2);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 2rem;
+        text-align: center;
+    }
+    
+    .hero-section img {
+        margin-top: 20px;
+    }
+}
